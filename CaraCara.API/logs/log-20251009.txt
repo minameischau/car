@@ -1,0 +1,37 @@
+[2025-10-09 14:56:06 INF] Now listening on: http://localhost:5157
+[2025-10-09 14:56:06 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-09 14:56:06 INF] Hosting environment: Development
+[2025-10-09 14:56:06 INF] Content root path: C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.API
+[2025-10-09 14:56:08 INF] Request starting HTTP/1.1 GET http://localhost:5157/swagger/index.html - null null
+[2025-10-09 14:56:08 INF] Request finished HTTP/1.1 GET http://localhost:5157/swagger/index.html - 200 null text/html;charset=utf-8 320.7969ms
+[2025-10-09 14:56:08 INF] Request starting HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - null null
+[2025-10-09 14:56:08 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2025-10-09 14:56:09 INF] Request finished HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 569.4304ms
+[2025-10-09 14:58:07 INF] Request starting HTTP/1.1 GET http://localhost:5157/weatherforecast - null null
+[2025-10-09 14:58:07 WRN] Failed to determine the https port for redirect.
+[2025-10-09 14:58:07 INF] Executing endpoint 'HTTP: GET /weatherforecast'
+[2025-10-09 14:58:07 INF] Executed endpoint 'HTTP: GET /weatherforecast'
+[2025-10-09 14:58:07 INF] Request finished HTTP/1.1 GET http://localhost:5157/weatherforecast - 200 null application/json; charset=utf-8 55.443ms
+[2025-10-09 14:58:41 INF] Application is shutting down...
+[2025-10-09 15:02:06 INF] Now listening on: http://localhost:5157
+[2025-10-09 15:02:06 INF] Application started. Press Ctrl+C to shut down.
+[2025-10-09 15:02:06 INF] Hosting environment: Development
+[2025-10-09 15:02:06 INF] Content root path: C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.API
+[2025-10-09 15:02:06 INF] Request starting HTTP/1.1 GET http://localhost:5157/swagger/index.html - null null
+[2025-10-09 15:02:07 INF] Request finished HTTP/1.1 GET http://localhost:5157/swagger/index.html - 200 null text/html;charset=utf-8 359.278ms
+[2025-10-09 15:02:07 INF] Request starting HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - null null
+[2025-10-09 15:02:07 INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+[2025-10-09 15:02:07 INF] Request finished HTTP/1.1 GET http://localhost:5157/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.9114ms
+[2025-10-09 15:02:11 INF] Request starting HTTP/1.1 GET http://localhost:5157/weatherforecast - null null
+[2025-10-09 15:02:11 WRN] Failed to determine the https port for redirect.
+[2025-10-09 15:02:11 INF] Executing endpoint 'HTTP: GET /weatherforecast'
+[2025-10-09 15:02:11 INF] Executed endpoint 'HTTP: GET /weatherforecast'
+[2025-10-09 15:02:11 INF] HTTP GET /weatherforecast responded 200 in 29.6961 ms
+[2025-10-09 15:02:11 INF] Request finished HTTP/1.1 GET http://localhost:5157/weatherforecast - 200 null application/json; charset=utf-8 57.2895ms
+[2025-10-09 15:02:13 INF] Request starting HTTP/1.1 GET http://localhost:5157/weatherforecast - null null
+[2025-10-09 15:02:13 INF] Executing endpoint 'HTTP: GET /weatherforecast'
+[2025-10-09 15:02:13 INF] Executed endpoint 'HTTP: GET /weatherforecast'
+[2025-10-09 15:02:13 INF] HTTP GET /weatherforecast responded 200 in 4.9721 ms
+[2025-10-09 15:02:13 INF] Request finished HTTP/1.1 GET http://localhost:5157/weatherforecast - 200 null application/json; charset=utf-8 15.2978ms
+[2025-10-09 15:05:38 INF] Application is shutting down...
+[2025-10-09 17:23:00 INF] HTTP GET /weatherforecast responded 200 in 21.2249 ms

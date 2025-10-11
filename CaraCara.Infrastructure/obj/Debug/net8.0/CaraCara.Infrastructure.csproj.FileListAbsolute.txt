@@ -1,0 +1,14 @@
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\bin\Debug\net8.0\CaraCara.Infrastructure.deps.json
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\bin\Debug\net8.0\CaraCara.Infrastructure.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\bin\Debug\net8.0\CaraCara.Infrastructure.pdb
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\CaraCara.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\CaraCara.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\CaraCara.Infrastructure.AssemblyInfo.cs
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\CaraCara.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\CaraCara.Infrastructure.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\refint\CaraCara.Infrastructure.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\CaraCara.Infrastructure.pdb
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\ref\CaraCara.Infrastructure.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\CaraCara.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\bin\Debug\net8.0\CaraCara.Infrastructure.runtimeconfig.json
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Infrastructure\obj\Debug\net8.0\CaraCara.Infrastructure.genruntimeconfig.cache

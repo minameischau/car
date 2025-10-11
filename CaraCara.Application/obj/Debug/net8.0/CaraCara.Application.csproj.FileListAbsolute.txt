@@ -1,0 +1,11 @@
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\bin\Debug\net8.0\CaraCara.Application.deps.json
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\bin\Debug\net8.0\CaraCara.Application.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\bin\Debug\net8.0\CaraCara.Application.pdb
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\obj\Debug\net8.0\CaraCara.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\obj\Debug\net8.0\CaraCara.Application.AssemblyInfoInputs.cache
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\obj\Debug\net8.0\CaraCara.Application.AssemblyInfo.cs
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\obj\Debug\net8.0\CaraCara.Application.csproj.CoreCompileInputs.cache
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\obj\Debug\net8.0\CaraCara.Application.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\obj\Debug\net8.0\refint\CaraCara.Application.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\obj\Debug\net8.0\CaraCara.Application.pdb
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Application\obj\Debug\net8.0\ref\CaraCara.Application.dll

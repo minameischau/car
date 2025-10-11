@@ -1,0 +1,11 @@
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\bin\Debug\net8.0\CaraCara.Domain.deps.json
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\bin\Debug\net8.0\CaraCara.Domain.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\bin\Debug\net8.0\CaraCara.Domain.pdb
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\obj\Debug\net8.0\CaraCara.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\obj\Debug\net8.0\CaraCara.Domain.AssemblyInfoInputs.cache
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\obj\Debug\net8.0\CaraCara.Domain.AssemblyInfo.cs
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\obj\Debug\net8.0\CaraCara.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\obj\Debug\net8.0\CaraCara.Domain.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\obj\Debug\net8.0\refint\CaraCara.Domain.dll
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\obj\Debug\net8.0\CaraCara.Domain.pdb
+C:\Users\SS-93\RiderProjects\CaraCara\CaraCara.Domain\obj\Debug\net8.0\ref\CaraCara.Domain.dll
