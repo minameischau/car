@@ -51,7 +51,7 @@ public static class SerilogExtensions
                 return null;
             }
 
-            Console.WriteLine($"✅ Đang load file log config: {sharedLogFilePath}.")
+            Console.WriteLine($"✅ Đang load file log config: {sharedLogFilePath}.");
 
             var config = new ConfigurationBuilder()
                 .AddJsonFile(sharedLogFilePath, optional: false, reloadOnChange: true)
