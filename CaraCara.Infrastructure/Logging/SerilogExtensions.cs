@@ -26,9 +26,9 @@ public static class SerilogExtensions
             configuration
                 .ReadFrom.Services(services)
                 .Enrich.FromLogContext()
-                .Enrich.WithProperty("Application", context.HostingEnvironment.ApplicationName)
-                .Enrich.WithProperty("Environment", context.HostingEnvironment.EnvironmentName)
-                .Enrich.WithProperty("MachineName", Environment.MachineName)
+                .Enrich.WithProperty("Application: ", context.HostingEnvironment.ApplicationName)
+                .Enrich.WithProperty("Environment: ", context.HostingEnvironment.EnvironmentName)
+                .Enrich.WithProperty("MachineName: ", Environment.MachineName)
                 .WriteTo.Console();
         });
 
