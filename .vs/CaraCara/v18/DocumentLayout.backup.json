@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +58,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
@@ -71,15 +75,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CaraCara.API",
+              "Title": "CaraCara.API.csproj",
               "DocumentMoniker": "C:\\Users\\SS-93\\RiderProjects\\CaraCara\\CaraCara.API\\CaraCara.API.csproj",
               "RelativeDocumentMoniker": "CaraCara.API\\CaraCara.API.csproj",
               "ToolTip": "C:\\Users\\SS-93\\RiderProjects\\CaraCara\\CaraCara.API\\CaraCara.API.csproj",
               "RelativeToolTip": "CaraCara.API\\CaraCara.API.csproj",
               "ViewState": "AgIAAAIAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-09T10:09:29.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T10:09:29.191Z"
             },
             {
               "$type": "Document",
@@ -89,7 +92,7 @@
               "RelativeDocumentMoniker": "CaraCara.Infrastructure\\Logging\\SerilogExtensions.cs",
               "ToolTip": "C:\\Users\\SS-93\\RiderProjects\\CaraCara\\CaraCara.Infrastructure\\Logging\\SerilogExtensions.cs",
               "RelativeToolTip": "CaraCara.Infrastructure\\Logging\\SerilogExtensions.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwC0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T08:59:34.83Z",
               "EditorCaption": ""
@@ -104,8 +107,7 @@
               "RelativeToolTip": "CaraCara.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T08:56:14.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T08:56:14.547Z"
             },
             {
               "$type": "Document",
@@ -117,8 +119,7 @@
               "RelativeToolTip": "CaraCara.SharedSettings\\logs.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-09T08:32:06.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T08:32:06.464Z"
             }
           ]
         },
