@@ -20,7 +20,7 @@ public static class SerilogExtensions
             }
             else
             {
-                Console.WriteLine("⚠️ Không tìm thấy file cấu hình log trong SharedSetting.");
+                Console.WriteLine("⚠️ Không tìm thấy file cấu hình log trong SharedSetting!");
             }
 
             configuration
