@@ -1,4 +1,8 @@
 using CaraCara.Infrastructure.Logging;
+using CaraCara.Infrastructure.Persistence;
+using CaraCara.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +14,21 @@ builder.Services.AddSwaggerGen();
 
 // 🧾 Cấu hình Serilog basic ghi log ra file logs/log-.txt
 builder.Host.UseAppSerilog();
+
+// Configure DbContext
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Configure Identity
+builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
+    {
+        options.Password.RequireDigit = true;
+        options.Password.RequireLowercase = true;
+        options.Password.RequireUppercase = true;
+        options.Password.RequiredLength = 6;
+    })
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
@@ -23,6 +42,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseSerilogRequestLogging(); //bật auto lưu các HTTP request k cần gọi ILog
+
+app.UseAuthentication();
+app.UseAuthorization();
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
