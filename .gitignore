@@ -8,6 +8,16 @@
 
 # Local Configuration
 CaraCara.API/appsettings.Secrets.json
+structure.txt
+table.txt
+build_output.txt
+
+# IDE - JetBrains Rider
+.idea/
+
+# User-specific files
+*.DotSettings.user
+*.user
 
 # User-specific files
 *.rsuser
