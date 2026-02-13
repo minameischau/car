@@ -19,6 +19,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\CaraCara.Infrastructure\CaraCara.Infrastructure.csproj" />
+      <ProjectReference Include="..\CaraCara.Application\CaraCara.Application.csproj" />
     </ItemGroup>
 
 	<ItemGroup>

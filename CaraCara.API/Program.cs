@@ -1,9 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Serilog;
+using CaraCara.Application;
+using CaraCara.Application.Features.Vehicles.Queries.GetVehicles;
+using MediatR;
 using CaraCara.Infrastructure.Logging;
 using CaraCara.Infrastructure.Persistence;
 using CaraCara.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add Application Layer Services
+builder.Services.AddApplicationServices();
 
 // 🧾 Cấu hình Serilog basic ghi log ra file logs/log-.txt
 builder.Host.UseAppSerilog();
@@ -29,6 +35,8 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
     })
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
@@ -64,6 +72,15 @@ app.MapGet("/weatherforecast", () =>
     })
     .WithName("GetWeatherForecast")
     .WithOpenApi();
+
+app.MapGet("/api/vehicles", async (IMediator mediator) =>
+{
+    var query = new GetVehiclesQuery();
+    var result = await mediator.Send(query);
+    return Results.Ok(result);
+})
+.WithName("GetVehicles")
+.WithOpenApi();
 
 app.Run();
 
