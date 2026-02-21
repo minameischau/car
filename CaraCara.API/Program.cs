@@ -1,12 +1,9 @@
-using Microsoft.EntityFrameworkCore;
 using Serilog;
 using CaraCara.Application;
 using CaraCara.Application.Features.Vehicles.Queries.GetVehicles;
 using MediatR;
+using CaraCara.Infrastructure;
 using CaraCara.Infrastructure.Logging;
-using CaraCara.Infrastructure.Persistence;
-using CaraCara.Domain.Entities;
-using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,23 +15,11 @@ builder.Services.AddSwaggerGen();
 // Add Application Layer Services
 builder.Services.AddApplicationServices();
 
+// Add Infrastructure Layer Services (DbContext, Identity, Repositories)
+builder.Services.AddInfrastructureServices(builder.Configuration);
+
 // 🧾 Cấu hình Serilog basic ghi log ra file logs/log-.txt
 builder.Host.UseAppSerilog();
-
-// Configure DbContext
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-// Configure Identity
-builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(options =>
-    {
-        options.Password.RequireDigit = true;
-        options.Password.RequireLowercase = true;
-        options.Password.RequireUppercase = true;
-        options.Password.RequiredLength = 6;
-    })
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddDefaultTokenProviders();
 
 builder.Services.AddAuthorization();
 
@@ -53,25 +38,6 @@ app.UseSerilogRequestLogging(); //bật auto lưu các HTTP request k cần gọ
 
 app.UseAuthentication();
 app.UseAuthorization();
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-    {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast")
-    .WithOpenApi();
 
 app.MapGet("/api/vehicles", async (IMediator mediator) =>
 {
@@ -83,8 +49,3 @@ app.MapGet("/api/vehicles", async (IMediator mediator) =>
 .WithOpenApi();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

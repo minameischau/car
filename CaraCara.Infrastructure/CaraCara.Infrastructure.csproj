@@ -22,6 +22,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\CaraCara.Domain\CaraCara.Domain.csproj" />
+      <ProjectReference Include="..\CaraCara.Application\CaraCara.Application.csproj" />
     </ItemGroup>
 
 </Project>
